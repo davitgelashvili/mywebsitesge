@@ -1,0 +1,15 @@
+.header {
+    &__logo {
+
+    }
+
+    &__menu {
+        &--item {
+            list-style: none;
+        }
+
+        &--link {
+            text-decoration: none;
+        }
+    }
+}
