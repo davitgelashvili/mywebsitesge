@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyWebSitesGe</title>
+    <link rel="stylesheet" href="css/splide.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.css">
     <link rel="stylesheet" href="css/app.css">
 </head>
@@ -31,9 +32,160 @@
         </div>
     </header>
 
-    <section class="slider">
-        
+    <section class="slider slider-js d-flex align-items-center">
+        <div class="splide__arrows slider__arrows">
+            <div class="container slider__navs">
+                <button class="splide__arrow splide__arrow--prev slider__navs--btn slider__navs--prev">
+                    <img src="img/svg/slider-prev.svg" alt="">
+                </button>
+                <button class="splide__arrow splide__arrow--next slider__navs--btn slider__navs--next">
+                    <img src="img/svg/slider-next.svg" alt="">
+                </button>
+            </div>
+        </div>
+        <div class="splide__track slider__track">
+            <ul class="splide__list slider__list">
+                <div class="splide__slide">
+                    <div class="slider__item">
+                        <img src="img/bg1.jpg" alt="" class="slider__item--cover">
+                    </div>
+                </div>
+                <div class="splide__slide">
+                    <div class="slider__item">
+                        <img src="img/bg2.jpg" alt="" class="slider__item--cover">
+                    </div>
+                </div>
+                <div class="splide__slide">
+                    <div class="slider__item">
+                        <img src="img/bg3.jpg" alt="" class="slider__item--cover">
+                    </div>
+                </div>
+            </ul>
+        </div>
     </section>
+
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-5">
+                    <figure class="about__cover">
+                        <img src="img/about.jpg" alt="" class="about__cover--img">
+                    </figure>
+                </div>
+                <div class="col-lg-8 col-md-7">
+                    <div class="about__text">
+                        <h1 class="about__text--title">We are committed to our customers’ success from start to finish. Our input helps make their solutions.</h1>
+                        <div class="about__text--desc">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque quo neque, officiis at soluta a praesentium harum voluptatem nostrum natus exercitationem ea quos aliquid aliquam minus eos nemo explicabo et adipisci vitae mollitia? Molestiae, tenetur nulla consequuntur autem ipsa magnam nostrum obcaecati dicta beatae quasi consequatur officia vel sunt cum voluptatibus? Eos repellendus maxime tempore deserunt similique dolore eveniet! Animi quis pariatur eligendi voluptatum possimus dolorem provident. Ratione nostrum consequuntur tenetur tempore inventore cum mollitia doloribus, ea, nesciunt, iste impedit nisi natus rerum exercitationem. Iure provident dignissimos, in ipsam, debitis eaque quidem inventore, dolores id officiis quaerat iusto quibusdam odio!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <div class="services__list">
+                <div class="services__item">
+                    <div class="services__item--head d-flex align-items-center justify-content-center">
+                        <div class="services__item--number d-flex align-items-center justify-content-center">
+                            01
+                        </div>
+                    </div>
+                    <h1 class="services__item--title">Lorem ipsum dolor sit amet.</h1>
+                    <div class="services__item--desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, expedita! Voluptate assumenda ad fuga cupiditate animi corporis minus omnis nulla.
+                    </div>
+                </div><!-- item end -->
+                <div class="services__item">
+                    <div class="services__item--head d-flex align-items-center justify-content-center">
+                        <div class="services__item--number d-flex align-items-center justify-content-center">
+                            02
+                        </div>
+                    </div>
+                    <h1 class="services__item--title">Lorem ipsum dolor sit amet.</h1>
+                    <div class="services__item--desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, expedita! Voluptate assumenda ad fuga cupiditate animi corporis minus omnis nulla.
+                    </div>
+                </div><!-- item end -->
+                <div class="services__item">
+                    <div class="services__item--head d-flex align-items-center justify-content-center">
+                        <div class="services__item--number d-flex align-items-center justify-content-center">
+                            03
+                        </div>
+                    </div>
+                    <h1 class="services__item--title">Lorem ipsum dolor sit amet.</h1>
+                    <div class="services__item--desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, expedita! Voluptate assumenda ad fuga cupiditate animi corporis minus omnis nulla.
+                    </div>
+                </div><!-- item end -->
+                <div class="services__item">
+                    <div class="services__item--head d-flex align-items-center justify-content-center">
+                        <div class="services__item--number d-flex align-items-center justify-content-center">
+                            04
+                        </div>
+                    </div>
+                    <h1 class="services__item--title">Lorem ipsum dolor sit amet.</h1>
+                    <div class="services__item--desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, expedita! Voluptate assumenda ad fuga cupiditate animi corporis minus omnis nulla.
+                    </div>
+                </div><!-- item end -->
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <form action="" class="contact__form">
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <label class="contact__form--label">
+                            <input type="text" placeholder="Name *" class="contact__form--input">
+                        </label>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <label class="contact__form--label">
+                            <input type="text" placeholder="Phone *" class="contact__form--input">
+                        </label>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <label class="contact__form--label">
+                            <input type="text" placeholder="E-mail *" class="contact__form--input">
+                        </label>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <label class="contact__form--label">
+                            <select class="contact__form--input">
+                                <option value="">Select your budget</option>
+                                <option value="">100k</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="col-12">
+                        <textarea name="" id="" cols="30" rows="10" class="contact__form--input"></textarea>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center">
+                        <button class="contact__form--send">Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div>
+                copy
+            </div>
+        </div>
+    </footer>
     
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/splide.js"></script>
+    <script src="js/slider.js"></script>
+    <script>
+        MainPageSliderFunction()
+    </script>
 </body>
 </html>

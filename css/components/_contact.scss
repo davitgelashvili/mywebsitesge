@@ -1,0 +1,34 @@
+$borderSize: 10px;
+$marginTop: 30px;
+
+.contact {
+    margin-top: 50px;
+
+    &__form {
+        width: 100%;
+
+        &--label {
+            width: 100%;
+            display: block;
+            margin-bottom: $marginTop;
+        }
+        
+        &--input {
+            width: 100%;
+            padding: 15px;
+            border-radius: $borderSize;
+            border: 1px solid gray;
+            outline: none;
+        }
+
+        &--send {
+            margin-top: $marginTop;
+            padding: 15px 40px;
+            background-color: aqua;
+            border-radius: $borderSize;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+    }
+}
